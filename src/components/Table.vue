@@ -107,7 +107,7 @@ import db_items from "../assets/data";
 export default {
   methods: {
     getImagePath: function (id) {
-      return "/assets/images/" + id + ".jpg";
+      return "/test/assets/images/" + id + ".jpg";
     },
   },
   computed: {
