@@ -13,13 +13,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN CHRISTMAS DANCE WORKOUT - that's a 10/10 for happiness / Sweaty Version I Pamela Reif",
@@ -35,13 +35,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN R&B DANCE WORKOUT - a little sexy, a little gangster & for sure SWEATY! / Pamela Reif",
@@ -57,13 +57,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN LOVE DANCE WORKOUT - burn calories to Oldies Love Songs / Pamela Reif I No Equipment",
@@ -79,13 +79,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN OLDIES DANCE WORKOUT - burn calories to 90s and 80s hits / No Equipment I Pamela Reif",
@@ -101,12 +101,12 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "easter_eggs": "",
     "song_workout": false,
     "difficulty_beginner": true,
-    "difficulty_medium": "",
-    "difficulty_intense": ""
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN SEXY DANCE WORKOUT /  burn calories & move your hips / No Equipment I Pamela Reif",
@@ -122,13 +122,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "7 MIN CHRISTMAS DANCE WORKOUT - Easy Family Edition with my brother I Pamela & Dennis Reif",
@@ -144,13 +144,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN FULL BODY WORKOUT // No Equipment | Pamela Reif",
@@ -166,13 +166,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN FULL BODY WORKOUT - Beginner Friendly, with breaks // No Equipment I Pamela Reif",
@@ -188,13 +188,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "5 MILLION SPECIAL - Q&A, Workout Quiz & Funny Comments, Dennis prepared a video for us / Pamela Reif",
@@ -210,13 +210,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "BEAT THE PAM - Playing Games with Austin Mahone | Pamela Rf",
@@ -232,13 +232,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN CALORIE KILLER / Medium Level - a HIIT workout that won't kill you I Pamela Reif",
@@ -254,13 +254,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN GET MOTIVATED WORKOUT / fun routine to get your booty off the sofa I Pamela Reif",
@@ -276,13 +276,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN CARDIO / No Jumping - silent & neighbor friendly / No Equipment I Pamela Reif",
@@ -298,13 +298,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN HIGH INTENSITY WORKOUT - burn lots of calories / No Equipment I Pamela Reif",
@@ -320,13 +320,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN SWEAT WORKOUT | Full Body Sweat for Fat Burning  // No Equipment | Pamela Reif",
@@ -342,13 +342,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN HARDCORE HIIT - burn lots of calories in a short time / No Equipment I Pamela Reif",
@@ -364,13 +364,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "12 MIN HAPPY CARDIO - a good mood High Intensity Choreo / No Equipment I Pamela Reif",
@@ -386,13 +386,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "12 MIN HAPPY SWEAT WORKOUT - good mood Cardio workout / including HIIT  I Pamela Reif",
@@ -408,13 +408,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN DANCE CARDIO WORKOUT - 80s EDITION, burn calories and be happy / No Equipment I Pamela Reif",
@@ -430,13 +430,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN FULL BODY HIIT WORKOUT - burn lots of calories / No Equipment I Pamela Reif",
@@ -452,13 +452,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN HAPPY DANCE WORKOUT - burn calories and smile / No Equipment I Pamela Reif",
@@ -474,13 +474,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "BED - Joel Corry x RAYE x David Guetta / BOXING WARM UP ROUTINE I Pamela Reif",
@@ -496,13 +496,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "Head & Heart - Joel Corry x MNEK // 4 MIN HIIT WORKOUT - a quick calorie burner I Pamela Reif",
@@ -518,13 +518,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN AB WORKOUT - Back & Neck Friendly / No Equipment I Pamela Reif",
@@ -540,13 +540,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN SIXPACK WORKOUT // No Equipment | Pamela Reif",
@@ -562,13 +562,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BEGINNER AB WORKOUT // No Equipment | Pamela Reif",
@@ -584,13 +584,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN AB WORKOUT // No Equipment | Pamela Reif",
@@ -606,13 +606,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BOOTY BURN // No Equipment | Pamela Reif",
@@ -628,13 +628,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN AB WORKOUT - seitliche Bauchmuskeln // No Equipment | Pamela Reif",
@@ -650,13 +650,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BOOTY WORKOUT - Medium Intensity / No Equipment I Pamela Reif",
@@ -672,13 +672,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN ABS WITH WEIGHTS - for an extra strong core! you can also use a bottle of water I Pamela Reif",
@@ -698,9 +698,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BACK WORKOUT - upper back, lower back, lats & neck / Equipment: Bottles I Pamela Reif",
@@ -720,9 +720,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN BOOTY ACTIVATION - to grow your glutes / optional: Resistance Band I Pamela Reif",
@@ -742,9 +742,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BEGINNER LEG WORKOUT .. with breaks! Booty, Thighs & Hamstrings / No Equipment I Pamela Reif",
@@ -760,13 +760,13 @@ export default [
     "live": false,
     "trains": "leg",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "12 MIN AB WORKOUT - Medium Level / No Equipment I Pamela Reif",
@@ -782,13 +782,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN BOOB LIFT - B(r)east mode: ON .. Chest Workout for men & women / with weights I Pamela Reif",
@@ -808,9 +808,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN TONED ARMS - quick & intense at home / with water bottles I Pamela Reif",
@@ -826,13 +826,13 @@ export default [
     "live": false,
     "trains": "arms",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN BOOTY & ABS - a slow workout on the floor - No Squats, No Jumps, Low Impact  I Pamela Reif",
@@ -848,13 +848,13 @@ export default [
     "live": false,
     "trains": "booty,arms",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN BOOTY WORKOUT - Knee Friendly, Low Impact, No Squats or Lunges  / No Equipment I Pamela Reif",
@@ -870,13 +870,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN BOOTY PUMP - set your butt on fire & make it grow I Pamela Reif",
@@ -892,13 +892,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN LOWER AB WORKOUT / No Equipment I Pamela Reif",
@@ -914,13 +914,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN BOOTY WORKOUT - training for a bubble butt, NO JUMPS / No Equipment I Pamela Reif",
@@ -936,13 +936,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN UPPER BODY WORKOUT - for toned arms, chest & back muscles / No Equipment I Pamela Reif",
@@ -958,13 +958,13 @@ export default [
     "live": false,
     "trains": "upper-body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN SIXPACK WORKOUT - BEGINNER TO MEDIUM LEVEL, including breaks / No Equipment I Pamela Reif",
@@ -980,13 +980,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN INTENSE AB WORKOUT // No Equipment | Pamela RF",
@@ -1002,13 +1002,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN SOCKS WORKOUT - Abs out of Steel / Equipment: Socks I Pamela Reif",
@@ -1028,9 +1028,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN SIXPACK WORKOUT - Let's train together / No Equipment I Pamela Reif",
@@ -1046,13 +1046,13 @@ export default [
     "live": true,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN TRAINED WAIST - Medium Level, for toned side abs / No Equipment I Pamela Reif",
@@ -1068,13 +1068,13 @@ export default [
     "live": false,
     "trains": "waist",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN UPPER BODY + ABS - for arms, chest and core with DJ Joel Corry / No Equipment I Pamela Reif",
@@ -1090,13 +1090,13 @@ export default [
     "live": false,
     "trains": "upper-body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN UPPER BODY WORKOUT - Back, Arms & Chest / No Equipment I Pamela Reif",
@@ -1112,13 +1112,13 @@ export default [
     "live": false,
     "trains": "upper-body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "12 MIN GROW YOUR BOOTY - not your thighs / Booty Activation, no squats, knee friendly I Pamela Reif",
@@ -1134,13 +1134,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "12 MIN LEG WORKOUT - Butt, Thighs & Calves // No Equipment I Pamela Reif",
@@ -1156,13 +1156,13 @@ export default [
     "live": false,
     "trains": "leg",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN AB WORKOUT - Let's Train Together / No Equipment I Pamela Reif",
@@ -1178,13 +1178,13 @@ export default [
     "live": true,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN BOOTY WORKOUT, LOW IMPACT - knee friendly, no squats, no jumps / No Equipment I Pamela Reif",
@@ -1200,13 +1200,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN FULL BODY WORKOUT / Beginner Friendly - Let's Train Together / No Equipment I Pamela Reif",
@@ -1222,13 +1222,13 @@ export default [
     "live": true,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN GET STRONG WORKOUT - Let's Train Together / No Equipment I Pamela Reif",
@@ -1244,13 +1244,13 @@ export default [
     "live": true,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN SEXY BACK WORKOUT - upper & lower back, lats, neck / with (homemade) weight I Pamela Reif",
@@ -1270,9 +1270,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": true,
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": true,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN SIXPACK WORKOUT - intense ab workout / No Equipment I Pamela Reif",
@@ -1288,13 +1288,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN STUHL WORKOUT - Intensives Ganzkörper Training / Nichts für Anfänger | Pamela Rf",
@@ -1314,9 +1314,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN THIGH WORKOUT - focus on inner thighs, tone & tighten / No Equipment I Pamela Reif",
@@ -1332,13 +1332,13 @@ export default [
     "live": false,
     "trains": "legs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "15 MIN UPPER BODY - with weights / for sexy arm, back & chest muscles / Male Friendly I Pamela Reif",
@@ -1358,9 +1358,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "2 in 1 - FLAT BELLY & ROUND BOOTY WORKOUT  // No Equipment | Pamela Reif",
@@ -1376,13 +1376,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "20 MIN BOOTY + THIGHS - with weights I build your booty & tone your thighs // TALKING MODE",
@@ -1402,9 +1402,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "20 MIN BOOTY WORKOUT - Weights & Booty Band / double the torture for a round booty I Pamela Reif",
@@ -1424,9 +1424,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "20 MIN BOOTY WORKOUT // No Equipment | Pamela Reif",
@@ -1442,13 +1442,13 @@ export default [
     "live": false,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "20 MIN FULL BODY WORKOUT - Beginner Version // No Equipment I Pamela Reif",
@@ -1464,13 +1464,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "20 MIN FULL BODY WORKOUT - Intense Version / No Equipment I Pamela Reif",
@@ -1486,13 +1486,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "20 MIN FULL BODY WORKOUT // No Equipment | Pamela Reif",
@@ -1508,13 +1508,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "20 MIN LEGS + BOOTY - Let's train together / No Equipment I Pamela Reif",
@@ -1530,13 +1530,13 @@ export default [
     "live": true,
     "trains": "legs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "30 MIN ABS & BOOTY - Let's train together / No Equipment I Pamela Reif",
@@ -1552,13 +1552,13 @@ export default [
     "live": true,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "30 MIN BEGINNER LEGS + BOOTY - Let's train together / No Equipment I Pamela Reif",
@@ -1574,13 +1574,13 @@ export default [
     "live": true,
     "trains": "legs,booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "30 MIN BOOTY WORKOUT / Knee Friendly Edition - Let's Train Together I Pamela Reif",
@@ -1596,13 +1596,13 @@ export default [
     "live": true,
     "trains": "booty",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "30 MIN UPPER BODY & ABS - Let's train together / No Equipment I Pamela Reif",
@@ -1618,13 +1618,13 @@ export default [
     "live": true,
     "trains": "upper-body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "30 MIN YOGA FLOW - for Deep Stretching and Strength | Pamela Reif",
@@ -1640,13 +1640,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "45 MIN BOOTY, ABS + FAT BURN -  intense combo for the ultimate burn I LIVE Workout I Pamela Reif",
@@ -1662,13 +1662,13 @@ export default [
     "live": true,
     "trains": "booty,abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "5MIN BOOTY & AB WORKOUT // Yoga Ball | Pamela RF",
@@ -1688,9 +1688,9 @@ export default [
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "6 MIN BRUTAL AB WORKOUT - intense sixpack workout, short and sweet / No Equipment I Pamela Reif",
@@ -1706,13 +1706,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "7 MIN PLANK CHALLENGE / No Equipment | Pamela Reif",
@@ -1728,13 +1728,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "8 MIN SIXPACK WORKOUT - with Christopher & a very special twist / No Equipment I Pamela Reif",
@@ -1750,13 +1750,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "Dan + Shay & Justin Bieber - 10.000 Hours AB WORKOUT - SLOW & INTENSE // No Equipment I Pamela Reif",
@@ -1772,13 +1772,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "Ed Sheeran - South of the Border LEG WORKOUT // No Equipment I Pamela Reif",
@@ -1794,13 +1794,13 @@ export default [
     "live": false,
     "trains": "legs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "Funny - Zedd & Jasmine Thompson // FULL BODY WARM UP / No Equipment I Pamela Reif",
@@ -1816,13 +1816,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "SEXY ARMS IN 10 MIN  / No Equipment | Pamela Reif",
@@ -1838,13 +1838,13 @@ export default [
     "live": false,
     "trains": "arms",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "Stormzy feat. Ed Sheeran & Burna Boy - Own It // AB WORKOUT / No Equipment I Pamela Reif",
@@ -1860,13 +1860,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN LEGS + FAT BURN - tone your thighs, booty & burn calories - No Equipment I Pamela Reif",
@@ -1882,13 +1882,13 @@ export default [
     "live": false,
     "trains": "legs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "8 MIN AB & HIIT WORKOUT with Jason Derulo / No Equipment | Pamela Reif",
@@ -1904,13 +1904,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": "",
-    "Table9.medium": "",
-    "Table11.intense": true
+    "difficulty_beginner": false,
+    "difficulty_medium": false,
+    "difficulty_intense": true
   },
   {
     "full_title": "10 MIN FULL BODY STRETCH - a simple routine for tight muscles & flexibility I Pamela Reif",
@@ -1926,13 +1926,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN LEG STRETCH - hamstrings, butt, thighs - for sore muscles and flexibility I Pamela Reif",
@@ -1948,13 +1948,13 @@ export default [
     "live": false,
     "trains": "legs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "15 MIN DAILY STRETCH - a full body routine for tight muscles, flexibility & mobility I Pamela Reif",
@@ -1970,13 +1970,13 @@ export default [
     "live": true,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "30 MIN FULL BODY STRETCHING - perfect for rest days / No Equipment I Pamela Reif",
@@ -1992,13 +1992,13 @@ export default [
     "live": false,
     "trains": "full body",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "5 MIN DAILY STRETCH - a super quick routine for every day / No Equipment I Pamela Reif",
@@ -2014,13 +2014,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "6 MIN EVERYDAY STRETCH - for stiff muscles, flexibility & after your workout I Pamela Reif",
@@ -2036,13 +2036,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "8 MIN SITTING TOO MUCH STRETCH - fix your posture, stand straight & reduce pain / Pamela Reif",
@@ -2058,13 +2058,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "8 MIN STRETCH FOR SPLITS - how to get your front splits / No Equipment I Pamela Reif",
@@ -2080,13 +2080,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN ABS + YOGA  - a slow and relaxed\" workout for super strong abs / No Equipment I Pamela Reif",
@@ -2102,13 +2102,13 @@ export default [
     "live": false,
     "trains": "abs",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "10 MIN GOOD MORNING WORKOUT - Stretch & Train // No Equipment | Pamela Reif",
@@ -2124,13 +2124,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "5 MIN WARM UP - Slow Version - get ready for your workout / No Equipment I Pamela Reif",
@@ -2146,13 +2146,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": false,
-    "Table6.Beginner": true,
-    "Table9.medium": true,
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": true,
+    "difficulty_intense": false
   },
   {
     "full_title": "Joel Corry - Lonely // HAPPY DANCE WARM UP / No Equipment I Pamela Reif",
@@ -2168,13 +2168,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "LaLaLife - David Puentez // FUN FULL BODY WARM UP / No Equipment I Pamela Reif",
@@ -2190,13 +2190,13 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   },
   {
     "full_title": "Leap Of Faith - Christopher // FULL BODY WARM UP / No Equipment I Pamela Reif",
@@ -2212,12 +2212,12 @@ export default [
     "live": false,
     "trains": "",
     "scenery": "",
-    "equipment": "none",
+    "equipment": true,
     "together": "",
     "easter_eggs": "",
     "song_workout": true,
-    "Table6.Beginner": true,
-    "Table9.medium": "",
-    "Table11.intense": ""
+    "difficulty_beginner": true,
+    "difficulty_medium": false,
+    "difficulty_intense": false
   }
 ]
