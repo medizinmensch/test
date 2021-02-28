@@ -1,14 +1,12 @@
 <template>
-  <!-- This example requires Tailwind CSS v2.0+ -->
   <div>
-    <!-- <input type="text" class="w-100" /> -->
     <input
       type="text"
       name="search_string"
       id="search_string"
       v-model="this.search"
       class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-r sm:text-sm border-gray-500 m-2 p-2"
-      placeholder="Search for everything"
+      placeholder="Search for anything"
     />
   </div>
   <div class="flex flex-col">
@@ -43,15 +41,17 @@
             <tbody class="bg-white divide-y divide-gray-200">
               <tr v-for="item in filteredItems" :key="item.id">
                 <td>
-                  <div v-if="!item.live" class="w-4 h-20 bg-red-300"></div>
+                  <div v-if="item.live" class="w-4 h-20 bg-red-300"></div>
                 </td>
                 <td class="p-0 m-0 whitespace-nowrap">
                   <div class="flex items-center">
                     <div class="flex-shrink-2 w-36">
                       <a :href="item.link">
-                        <img :src="item.image" alt="" />
+                        <img
+                          :src="getImagePath(item.id)"
+                          :alt="item.id"
+                        />
                       </a>
-                      <!-- class="h-10 w-10 rounded-full" -->
                     </div>
                     <div class="ml-4">
                       <div class="text-sm font-medium text-gray-900">
@@ -64,11 +64,29 @@
                   </div>
                 </td>
                 <td class="px-6 py-4 whitespace-nowrap">
-                  <div class="text-sm text-gray-900">
-                    {{ item.difficulty }}
+                  <div>
+                    <div
+                      v-if="item.difficulty_beginner"
+                      class="text-sm rounded-full bg-green-100 text-gray-500 inline-flex px-1.5"
+                    >
+                      beginner
+                    </div>
+                    <div
+                      v-if="item.difficulty_medium"
+                      class="text-sm rounded-full bg-yellow-100 text-gray-600 inline-flex px-1.5"
+                    >
+                      medium
+                    </div>
+                    <div
+                      v-if="item.difficulty_intense"
+                      class="text-sm rounded-full bg-red-100 text-gray-800 inline-flex px-1.5"
+                    >
+                      intense
+                    </div>
                   </div>
+
                   <div
-                    class="text-sm text-gray-500 rounded-full bg-green-100 text-green-800 inline-flex px-1.5"
+                    class="text-sm rounded-full bg-blue-100 text-green-800 inline-flex px-1.5"
                   >
                     {{ item.equipment }}
                   </div>
@@ -84,11 +102,13 @@
 
 <script>
 import Fuse from "fuse.js";
-import db_items from '../assets/data';
+import db_items from "../assets/data";
 
 export default {
-  mounted() {
-
+  methods: {
+    getImagePath: function (id) {
+      return "/assets/images/" + id + ".jpg";
+    },
   },
   computed: {
     filteredItems() {
@@ -130,7 +150,7 @@ export default {
         "easter_eggs",
         "songs",
       ],
-      items: db_items
+      items: db_items,
     };
   },
 };
