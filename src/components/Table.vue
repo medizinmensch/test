@@ -151,8 +151,8 @@
             <div class="flex items-center">
               <div class="flex-shrink-2 w-36">
                 <a :href="item.link">
-                  <!-- <img :src="getImagePath(item.id)" :alt="item.id" /> -->
-                  <img :alt="item.id" />
+                  <img :src="getImagePath(item.id)" :alt="item.id" />
+                  <!-- <img :alt="item.id" /> -->
                 </a>
               </div>
             </div>
