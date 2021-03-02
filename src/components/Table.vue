@@ -9,8 +9,83 @@
       placeholder="Search for anything"
     />
   </div>
+  <div class="flex p-1 items-center">
+    <p class="font-medium p-2">Difficulty:</p>
+    <div>
+      <Blob
+        content="Beginner"
+        @clicked="this.filter.simple.difficulty_beginner = $event"
+        :state="this.filter.simple.difficulty_beginner"
+      />
+      <Blob
+        content="Medium"
+        @clicked="this.filter.simple.difficulty_medium = $event"
+        :state="this.filter.simple.difficulty_medium"
+      />
+      <Blob
+        content="Intense"
+        @clicked="this.filter.simple.difficulty_intense = $event"
+        :state="this.filter.simple.difficulty_intense"
+      />
+    </div>
+  </div>
+  <div class="flex p-1 items-center">
+    <p class="font-medium p-2">Workout type</p>
+    <div>
+      <Blob
+        content="Warmup"
+        @clicked="this.filter.type.warmup = $event"
+        :state="this.filter.type.warmup"
+      />
+      <Blob
+        content="Strength"
+        @clicked="this.filter.type.strength = $event"
+        :state="this.filter.type.strength"
+      />
+      <Blob
+        content="Stamina"
+        @clicked="this.filter.type.stamina = $event"
+        :state="this.filter.type.stamina"
+      />
+      <Blob
+        content="Dance"
+        @clicked="this.filter.type.dance = $event"
+        :state="this.filter.type.dance"
+      />
+      <Blob
+        content="Cooldown"
+        @clicked="this.filter.type.cooldown = $event"
+        :state="this.filter.type.cooldown"
+      />
+      <Blob
+        content="Stretch"
+        @clicked="this.filter.type.stretch = $event"
+        :state="this.filter.type.stretch"
+      />
+      <Blob
+        content="No Workout"
+        @clicked="this.filter.type.no_workout = $event"
+        :state="this.filter.type.no_workout"
+      />
+    </div>
+  </div>
+  <div class="flex p-1 items-center">
+    <p class="font-medium p-2">Misc. :</p>
+    <div>
+      <Blob
+        content="Live"
+        @clicked="this.filter.simple.together = $event"
+        :state="this.filter.simple.together"
+      />
+      <Blob
+        content="Song Workout"
+        @clicked="this.filter.simple.song_workout = $event"
+        :state="this.filter.simple.song_workout"
+      />
+    </div>
+  </div>
   <div class="flex flex-col">
-    <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
         <div
           class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
@@ -47,10 +122,8 @@
                   <div class="flex items-center">
                     <div class="flex-shrink-2 w-36">
                       <a :href="item.link">
-                        <img
-                          :src="getImagePath(item.id)"
-                          :alt="item.id"
-                        />
+                        <!-- <img :src="getImagePath(item.id)" :alt="item.id" /> -->
+                        <img :alt="item.id" />
                       </a>
                     </div>
                     <div class="ml-4">
@@ -102,30 +175,70 @@
 
 <script>
 import Fuse from "fuse.js";
-import db_items from "../assets/data";
+import db_items from "../assets/data.json";
+import Blob from "./blob.vue";
 
 export default {
+  components: {
+    Blob,
+  },
   methods: {
     getImagePath: function (id) {
-      return "/assets/images/" + id + ".jpg";
+      return "/test/assets/images/" + id + ".jpg";
+    },
+    test(event) {
+      console.log("event", event);
+      this.filter.difficulty.beginner = event;
     },
   },
   computed: {
     filteredItems() {
-      if (this.search == "") {
-        return this.items;
+      let reducedItems = this.items;
+
+      // hard filters
+
+      // Simple
+      for (const [key, value] of Object.entries(this.filter.simple)) {
+        if (value != "default") {
+          const must = value == "must" ? true : false;
+          reducedItems = reducedItems.filter((e) => e[key] == must);
+        }
       }
 
-      const options = {
-        includeScore: false,
-        keys: this.propsToSearch,
-      };
+      // workout Type type filter
+      for (const [key, value] of Object.entries(this.filter.type)) {
+        if (value != "default") {
+          const must = value == "must" ? true : false;
+          reducedItems = reducedItems.filter(
+            (e) => e.type.includes(key) == must
+          );
+        }
+      }
 
-      const fuse = new Fuse(this.items, options);
+      // 'trains' (body section) filter
+      for (const [key, value] of Object.entries(this.filter.type)) {
+        if (value != "default") {
+          const must = value == "must" ? true : false;
+          reducedItems = reducedItems.filter(
+            (e) => e.type.includes(key) == must
+          );
+        }
+      }
 
-      return fuse.search(this.search).map((e) => {
-        return e.item;
-      });
+      // Text-Search
+      if (this.search != "") {
+        const options = {
+          includeScore: "default",
+          keys: this.propsToSearch,
+        };
+
+        const fuse = new Fuse(reducedItems, options);
+        return fuse.search(this.search).map((e) => {
+          return e.item;
+        });
+      }
+
+      return reducedItems;
     },
   },
   data() {
@@ -133,22 +246,52 @@ export default {
     return {
       search: "",
       calories: "",
+      filter: {
+        // default, must, mustnot
+        simple: {
+          difficulty_beginner: "default",
+          difficulty_medium: "default",
+          difficulty_intense: "default",
+          together: "default",
+          song_workout: "default",
+        },
+        type: {
+          cooldown: "default",
+          dance: "default",
+          stamina: "default",
+          strength: "default",
+          stretch: "default",
+          warmup: "default",
+          no_workout: "mustnot",
+        },
+        trains: {
+          abs: "default",
+          arms: "default",
+          back: "default",
+          booty: "default",
+          fullbody: "default",
+          leg: "default",
+          legs: "default",
+          upperbody: "default",
+          waist: "default",
+        },
+      },
       propsToSearch: [
-        "orig_title",
-        "heading",
-        "subtitle",
-        "length",
-        "titleLength",
-        "accent_color",
-        "workout_type",
-        "tags",
-        "difficulty",
-        "trains",
+        "full_title",
+        // "length",
+        // "title_length",
+        // "type",
+        // "tags",
+        // "live",
+        // "trains",
         "scenery",
-        "equipment",
-        "together",
-        "easter_eggs",
-        "songs",
+        // "equipment",
+        // "together",
+        // "easter_eggs",
+        // "song_workout",
+        // "difficulty_beginner",
+        // "difficulty_medium",
+        // "difficulty_intense",
       ],
       items: db_items,
     };
