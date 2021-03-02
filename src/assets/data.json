@@ -13,9 +13,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -39,9 +37,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -65,9 +61,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -91,9 +85,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -117,9 +109,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "easter_eggs": "",
@@ -142,9 +132,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -168,9 +156,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -196,7 +182,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -223,7 +209,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -248,9 +234,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -274,9 +258,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -301,7 +283,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -326,9 +308,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -353,7 +333,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -379,7 +359,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -405,7 +385,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -431,7 +411,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -457,7 +437,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -483,7 +463,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -509,7 +489,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -535,7 +515,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -561,7 +541,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -586,9 +566,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -612,9 +590,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -820,9 +796,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": "weights",
         "together": "",
@@ -899,7 +873,8 @@
         "tags": "",
         "live": false,
         "trains": [
-            "legs"
+            "legs",
+            "booty"
         ],
         "scenery": "",
         "equipment": true,
@@ -951,7 +926,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "upper-body"
+            "upperbody"
         ],
         "scenery": "",
         "equipment": "weights",
@@ -1134,7 +1109,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "upper-body"
+            "upperbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1211,9 +1186,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": "socks",
         "together": "",
@@ -1264,7 +1237,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "waist"
+            "abs"
         ],
         "scenery": "",
         "equipment": true,
@@ -1290,7 +1263,8 @@
         "tags": "",
         "live": false,
         "trains": [
-            "upper-body"
+            "upperbody",
+            "abs"
         ],
         "scenery": "",
         "equipment": true,
@@ -1316,7 +1290,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "upper-body"
+            "upperbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1446,7 +1420,7 @@
         "tags": "",
         "live": true,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1471,9 +1445,7 @@
         ],
         "tags": "",
         "live": true,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -1550,7 +1522,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": "chair",
@@ -1602,7 +1574,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "upper-body"
+            "upperbody"
         ],
         "scenery": "",
         "equipment": "weights",
@@ -1628,7 +1600,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            ""
+            "booty"
         ],
         "scenery": "",
         "equipment": true,
@@ -1732,7 +1704,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1758,7 +1730,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1784,7 +1756,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -1810,7 +1782,8 @@
         "tags": "",
         "live": true,
         "trains": [
-            "legs"
+            "legs",
+            "booty"
         ],
         "scenery": "",
         "equipment": true,
@@ -1836,7 +1809,8 @@
         "tags": "",
         "live": true,
         "trains": [
-            "abs"
+            "abs",
+            "booty"
         ],
         "scenery": "",
         "equipment": true,
@@ -1915,7 +1889,8 @@
         "tags": "",
         "live": true,
         "trains": [
-            "upper-body"
+            "upperbody",
+            "abs"
         ],
         "scenery": "",
         "equipment": true,
@@ -1940,9 +1915,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2151,7 +2124,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -2230,7 +2203,8 @@
         "tags": "",
         "live": false,
         "trains": [
-            "legs"
+            "legs",
+            "booty"
         ],
         "scenery": "",
         "equipment": true,
@@ -2283,7 +2257,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -2334,9 +2308,7 @@
         ],
         "tags": "",
         "live": true,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2361,7 +2333,7 @@
         "tags": "",
         "live": false,
         "trains": [
-            "full_body"
+            "fullbody"
         ],
         "scenery": "",
         "equipment": true,
@@ -2386,9 +2358,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2412,9 +2382,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2438,9 +2406,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2464,9 +2430,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2518,9 +2482,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2544,9 +2506,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2570,9 +2530,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2596,9 +2554,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",
@@ -2622,9 +2578,7 @@
         ],
         "tags": "",
         "live": false,
-        "trains": [
-            ""
-        ],
+        "trains": [],
         "scenery": "",
         "equipment": true,
         "together": "",

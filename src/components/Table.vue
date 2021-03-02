@@ -1,15 +1,16 @@
 <template>
   <div>
+      <!-- class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-r sm:text-sm border-gray-100 m-2 p-2" -->
     <input
       type="text"
       name="search_string"
       id="search_string"
       v-model="this.search"
-      class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-r sm:text-sm border-gray-500 m-2 p-2"
+      class="w-full m-2 p-2 bg-gray-100 block rounded-lg"
       placeholder="Search for anything"
     />
   </div>
-  <div class="flex p-1 items-center">
+  <div class="flex p-1 items-center bg-gray-100">
     <p class="font-medium p-2">Difficulty:</p>
     <div>
       <Blob
@@ -30,6 +31,46 @@
     </div>
   </div>
   <div class="flex p-1 items-center">
+    <p class="font-medium p-2">Region to train</p>
+    <div>
+      <Blob
+        content="Abs"
+        @clicked="this.filter.trains.abs = $event"
+        :state="this.filter.trains.abs"
+      />
+      <Blob
+        content="Arms"
+        @clicked="this.filter.trains.arms = $event"
+        :state="this.filter.trains.arms"
+      />
+      <Blob
+        content="Back"
+        @clicked="this.filter.trains.back = $event"
+        :state="this.filter.trains.back"
+      />
+      <Blob
+        content="Booty"
+        @clicked="this.filter.trains.booty = $event"
+        :state="this.filter.trains.booty"
+      />
+      <Blob
+        content="Full Body"
+        @clicked="this.filter.trains.fullbody = $event"
+        :state="this.filter.trains.fullbody"
+      />
+      <Blob
+        content="Legs"
+        @clicked="this.filter.trains.legs = $event"
+        :state="this.filter.trains.legs"
+      />
+      <Blob
+        content="Upper body"
+        @clicked="this.filter.trains.upperbody = $event"
+        :state="this.filter.trains.upperbody"
+      />
+    </div>
+  </div>
+  <div class="flex p-1 items-center bg-gray-100">
     <p class="font-medium p-2">Workout type</p>
     <div>
       <Blob
@@ -88,7 +129,7 @@
     <div class="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
       <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
         <div
-          class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
+          class="overflow-hidden border-b border-gray-200 sm:rounded-lg"
         >
           <table class="min-w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">
@@ -197,7 +238,7 @@ export default {
 
       // hard filters
 
-      // Simple
+      // 'Simple' (true/false) filters
       for (const [key, value] of Object.entries(this.filter.simple)) {
         if (value != "default") {
           const must = value == "must" ? true : false;
@@ -216,11 +257,11 @@ export default {
       }
 
       // 'trains' (body section) filter
-      for (const [key, value] of Object.entries(this.filter.type)) {
+      for (const [key, value] of Object.entries(this.filter.trains)) {
         if (value != "default") {
           const must = value == "must" ? true : false;
           reducedItems = reducedItems.filter(
-            (e) => e.type.includes(key) == must
+            (e) => e.trains.includes(key) == must
           );
         }
       }
@@ -278,20 +319,7 @@ export default {
       },
       propsToSearch: [
         "full_title",
-        // "length",
-        // "title_length",
-        // "type",
-        // "tags",
-        // "live",
-        // "trains",
         "scenery",
-        // "equipment",
-        // "together",
-        // "easter_eggs",
-        // "song_workout",
-        // "difficulty_beginner",
-        // "difficulty_medium",
-        // "difficulty_intense",
       ],
       items: db_items,
     };
