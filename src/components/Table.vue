@@ -1,15 +1,5 @@
 <template>
-  <div class="block w-full">
-    <input
-      type="text"
-      name="search_string"
-      id="search_string"
-      v-model="this.search"
-      class="w-full -mr-3 m-2 p-2 bg-gray-100 block rounded-lg"
-      placeholder="Search for anything"
-    />
-  </div>
-  <div class="flex p-1 items-center bg-gray-100">
+  <div class="flex items-center bg-gray-100">
     <p class="font-medium p-2">Difficulty:</p>
     <div>
       <Blob
@@ -29,7 +19,7 @@
       />
     </div>
   </div>
-  <div class="flex p-1 items-center">
+  <div class="flex items-center">
     <p class="font-medium p-2">Region:</p>
     <div>
       <Blob
@@ -69,7 +59,7 @@
       />
     </div>
   </div>
-  <div class="flex p-1 items-center bg-gray-100">
+  <div class="flex items-center bg-gray-100">
     <p class="font-medium p-2">Workout:</p>
     <div>
       <Blob
@@ -83,9 +73,9 @@
         :state="this.filter.type.strength"
       />
       <Blob
-        content="Stamina"
-        @clicked="this.filter.type.stamina = $event"
-        :state="this.filter.type.stamina"
+        content="Cardio"
+        @clicked="this.filter.type.cardio = $event"
+        :state="this.filter.type.cardio"
       />
       <Blob
         content="Dance"
@@ -109,47 +99,60 @@
       />
     </div>
   </div>
-  <div class="flex p-1 items-center">
+  <div class="flex items-center">
     <p class="font-medium p-2">Misc. :</p>
     <div>
       <Blob
         content="Live"
-        @clicked="this.filter.simple.together = $event"
-        :state="this.filter.simple.together"
+        @clicked="this.filter.simple.live = $event"
+        :state="this.filter.simple.live"
       />
       <Blob
         content="Song Workout"
         @clicked="this.filter.simple.song_workout = $event"
         :state="this.filter.simple.song_workout"
       />
+      <Blob
+        content="Equipment"
+        @clicked="this.filter.simple.equipment = $event"
+        :state="this.filter.simple.equipment"
+      />
     </div>
   </div>
-  <div
-    class="py-2 rounded-lg min-w-full px-6 overflow-x-auto -mx-6"
-  >
+  <div class="items-center flex justify-center w-full">
+    <input
+      type="text"
+      name="search_string"
+      id="search_string"
+      v-model="this.search"
+      class="w-11/12 m-2 p-2 bg-gray-100 block text-xs md:text-base rounded-lg justify-center"
+      placeholder="Search for title, training region, equipment or workout type"
+    />
+  </div>
+  <div class="py-2 rounded-lg min-w-full pl-6 overflow-x-auto -mx-6">
     <table class="divide-y divide-gray-200 min-w-full">
       <thead class="bg-gray-100">
         <tr>
-          <th scope="col" class="py-3 px-0 font-medium text-gray-500">🔴</th>
-          <th scope="col" class="text-left text-gray-500 tracking-wider">
-            Link
-          </th>
-          <th scope="col" class="text-left text-gray-500 tracking-wider">
-            Title
-          </th>
-          <th scope="col" class="text-left text-gray-500 tracking-wider">
-            Info
-          </th>
+          <th scope="col" class="text-gray-500 tracking-wider">Link 🔗</th>
+          <th scope="col" class="text-gray-500 tracking-wider">Title</th>
+          <th scope="col" class="text-gray-500 tracking-wider">Info</th>
         </tr>
       </thead>
       <tbody class="bg-white divide-y divide-gray-200">
-        <tr v-for="item in filteredItems" :key="item.id">
-          <td>
-            <div v-if="item.live" class="w-4 h-20 bg-red-300"></div>
-          </td>
-          <td class="p-0 m-0 whitespace-nowrap">
+        <tr
+          v-for="item in filteredItems"
+          :key="item.id"
+          @click="openLink(item.link)"
+          style="cursor: pointer"
+          class="hover:bg-gray-100"
+        >
+          <!-- 
+          sm, md, lg, xl, 2xl
+            w-10, w-11, w-12, w-14, w-16, w-20, w-24, w-28, w-32, w-36, w-40, w-44, w-48, w-52, 
+          -->
+          <td class="p-0 m-0">
             <div class="flex items-center">
-              <div class="flex-shrink-2 w-36">
+              <div class="w-28 md:w-40">
                 <a :href="item.link">
                   <img :src="getImagePath(item.id)" :alt="item.id" />
                   <!-- <img :alt="item.id" /> -->
@@ -167,7 +170,7 @@
               </div>
             </div>
           </td>
-          <td class="px-6 py-4 whitespace-nowrap">
+          <td class="px-2 py-2">
             <div>
               <div
                 v-if="item.difficulty_beginner"
@@ -191,8 +194,15 @@
 
             <div
               class="text-sm rounded-full bg-blue-100 text-green-800 inline-flex px-1.5"
+              v-if="item.equipment != 'none'"
             >
               {{ item.equipment }}
+            </div>
+            <div
+              class="text-sm rounded-xl border-solid border-2 border-red-500 text-gray-700 inline-flex px-1"
+              v-if="item.live"
+            >
+              Live
             </div>
           </td>
         </tr>
@@ -218,6 +228,10 @@ export default {
       console.log("event", event);
       this.filter.difficulty.beginner = event;
     },
+    openLink(link) {
+      console.log("TEST");
+      window.open(link, "_blank");
+    },
   },
   computed: {
     filteredItems() {
@@ -228,8 +242,14 @@ export default {
       // 'Simple' (true/false) filters
       for (const [key, value] of Object.entries(this.filter.simple)) {
         if (value != "default") {
-          const must = value == "must" ? true : false;
-          reducedItems = reducedItems.filter((e) => e[key] == must);
+          let must = value == "must" ? true : false;
+          if (key == "equipment") {
+            reducedItems = reducedItems.filter(
+              (e) => (e[key] != "none") == must
+            );
+          } else {
+            reducedItems = reducedItems.filter((e) => e[key] == must);
+          }
         }
       }
 
@@ -280,13 +300,14 @@ export default {
           difficulty_beginner: "default",
           difficulty_medium: "default",
           difficulty_intense: "default",
-          together: "default",
+          live: "default",
           song_workout: "default",
+          equipment: "default",
         },
         type: {
           cooldown: "default",
           dance: "default",
-          stamina: "default",
+          cardio: "default",
           strength: "default",
           stretch: "default",
           warmup: "default",
@@ -304,7 +325,14 @@ export default {
           waist: "default",
         },
       },
-      propsToSearch: ["full_title", "scenery"],
+      propsToSearch: [
+        "full_title",
+        "scenery",
+        "trains",
+        "equipment",
+        "trains",
+        "type",
+      ],
       items: db_items,
     };
   },
