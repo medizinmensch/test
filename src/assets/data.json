@@ -15,7 +15,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -39,7 +39,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -63,7 +63,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -87,7 +87,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -111,7 +111,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "easter_eggs": "",
         "song_workout": false,
         "difficulty_beginner": true,
@@ -134,7 +134,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -158,7 +158,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -177,7 +177,7 @@
         "accent_color": "",
         "type": [
             "strength",
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -185,7 +185,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -204,7 +204,7 @@
         "accent_color": "",
         "type": [
             "strength",
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -212,7 +212,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -236,7 +236,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -260,7 +260,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -278,7 +278,7 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -286,7 +286,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -304,13 +304,13 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -328,7 +328,7 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -336,7 +336,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -354,7 +354,7 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -362,7 +362,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -380,7 +380,7 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -388,7 +388,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -406,7 +406,7 @@
         "title_length": 10,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -414,7 +414,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -432,7 +432,7 @@
         "title_length": 12,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -440,7 +440,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -458,7 +458,7 @@
         "title_length": 12,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -466,7 +466,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -484,7 +484,7 @@
         "title_length": 15,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -492,7 +492,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -510,7 +510,7 @@
         "title_length": 15,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -518,7 +518,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -536,7 +536,7 @@
         "title_length": 15,
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -544,7 +544,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -562,13 +562,13 @@
         "title_length": "",
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -586,13 +586,13 @@
         "title_length": "",
         "accent_color": "",
         "type": [
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -618,7 +618,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -644,7 +644,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -670,7 +670,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -696,7 +696,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -722,7 +722,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -748,7 +748,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -774,7 +774,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -877,7 +877,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -903,7 +903,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -955,7 +955,7 @@
             "arms"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -982,7 +982,7 @@
             "arms"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1008,7 +1008,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1034,7 +1034,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1060,7 +1060,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1086,7 +1086,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1112,7 +1112,7 @@
             "upperbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1138,7 +1138,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1164,7 +1164,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1214,7 +1214,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1240,7 +1240,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1267,7 +1267,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1293,7 +1293,7 @@
             "upperbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1319,7 +1319,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1345,7 +1345,7 @@
             "legs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1371,7 +1371,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1397,7 +1397,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1423,7 +1423,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1447,7 +1447,7 @@
         "live": true,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1499,7 +1499,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1551,7 +1551,7 @@
             "legs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1603,7 +1603,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1681,7 +1681,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1707,7 +1707,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1733,7 +1733,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1759,7 +1759,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1786,7 +1786,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1813,7 +1813,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1840,7 +1840,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1866,7 +1866,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1893,7 +1893,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1917,7 +1917,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1944,7 +1944,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -1997,7 +1997,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2023,7 +2023,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2049,7 +2049,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2075,7 +2075,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2101,7 +2101,7 @@
             "legs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2127,7 +2127,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2153,7 +2153,7 @@
             "arms"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2179,7 +2179,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2198,7 +2198,7 @@
         "accent_color": "",
         "type": [
             "strength",
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -2207,7 +2207,7 @@
             "booty"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2226,7 +2226,7 @@
         "accent_color": "",
         "type": [
             "strength",
-            "stamina"
+            "cardio"
         ],
         "tags": "",
         "live": false,
@@ -2234,7 +2234,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2260,7 +2260,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2286,7 +2286,7 @@
             "legs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2310,7 +2310,7 @@
         "live": true,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2336,7 +2336,7 @@
             "fullbody"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2360,7 +2360,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2384,7 +2384,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2408,7 +2408,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2432,7 +2432,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2459,7 +2459,7 @@
             "abs"
         ],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2484,7 +2484,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2508,7 +2508,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": false,
@@ -2532,7 +2532,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2556,7 +2556,7 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
@@ -2580,12 +2580,38 @@
         "live": false,
         "trains": [],
         "scenery": "",
-        "equipment": true,
+        "equipment": "none",
         "together": "",
         "easter_eggs": "",
         "song_workout": true,
         "difficulty_beginner": true,
         "difficulty_medium": false,
         "difficulty_intense": false
+    },
+    {
+        "full_title": "10 MIN BEST OF HIIT - a compilation of the best parts of my HIIT workouts - INTENSE I Pamela Reif",
+        "link": "https://www.youtube.com/watch?v=k7nV8Gyn56o",
+        "id": "k7nV8Gyn56o",
+        "heading": "BEST OF HIIT",
+        "subtitle": "a compilation of the best parts of my HIIT workouts",
+        "length": "10:33",
+        "title_length": "10",
+        "accent_color": "",
+        "type": [
+            "cardio"
+        ],
+        "tags": "",
+        "live": false,
+        "trains": [
+            "fullbody"
+        ],
+        "scenery": "",
+        "equipment": "none",
+        "together": "",
+        "easter_eggs": "",
+        "song_workout": false,
+        "difficulty_beginner": false,
+        "difficulty_medium": false,
+        "difficulty_intense": true
     }
 ]
